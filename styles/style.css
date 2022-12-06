@@ -11,6 +11,7 @@
 body {
     background-color: black;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -71,7 +72,6 @@ form {
     display: inline;
     text-align: right;
     position: relative;
-    border: 2px solid rgb(253, 0, 0);
 }
 
 .letra-menu-sup {
@@ -85,12 +85,15 @@ form {
     color: gold;
 }
 
+.nav-link:hover {
+    color: gold; 
+ }
 
+.navbar-toggler{
+    color: gold !important;
+}
 
 .hero {
-    width: 75vw;
-    max-width: 1400px;
-    min-width: 320px;
     margin: 0 auto;
     border-radius: 15px;
     box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
@@ -98,10 +101,9 @@ form {
 
 
 .hero2 {
-    max-width: 500px;
-    height: 200px;
     margin: 30px auto 30px auto;
     display: block;
+    width: 100%;
 }
 
 /* menu inferior */
@@ -117,6 +119,16 @@ form {
     color: white;
 }
 
+.redes {
+    gap: 10px;
+    margin-top: 15px;
+
+}
+
+.redes li {
+    list-style: none;
+}
+
 .redes li a {
     color: brown;
     text-decoration: none;
@@ -126,14 +138,8 @@ form {
     color: gold
 }
 
-.redes li {
-    list-style: none;
-}
-.redes {
-    display: flex;
-    gap: 10px;
-    margin-top: 15px;
-}
+
+
 
 /* pagina personajes */
 .nombre {
@@ -143,11 +149,17 @@ form {
 }
 
 .personaje_img {
-    border-radius: 30px;
-    width: 380px;
-    height: 270px;
-    margin: 30px auto;
-    display: block;
+width: min(90%, 300px);
+height: 300px;
+border-radius: 20px;
+}
+
+.yugi { 
+    background-image: url(../img/personajes/Yami_yugi.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* pagina tienda */

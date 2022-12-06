@@ -11,16 +11,41 @@
 <body>
     <header>
         <div>
-            <img class="hero" src="../img/principal/Principal.jpg" alt="imagen principal">
+            <img class="hero img-fluid" src="../img/principal/Principal.jpg" alt="imagen principal" class=" w-100">
         </div>
         <div>
-          <nav>
-            <ul class="menu-nav-superior">
-              <li class="menu-superior"> <a class="letra-menu-sup" href="../index.html"> Inicio</a></li>
-              <li class="menu-superior"> <a class="letra-menu-sup" href="./Temporadas.html">Temporadas</a></li>
-              <li class="menu-superior"> <a class="letra-menu-sup" href="./tienda.html">Tienda</a></li>
-              <li class="menu-superior"> <a class="letra-menu-sup" href="./contacto.html">Contacto</a></li>
+<!--           <nav>
+            <ul class="menu-nav-superior mt-4">
+              <li class="menu-superior btn btn-outline-danger mt-4"> <a class="letra-menu-sup" href="../index.html"> Inicio</a></li>
+              <li class="menu-superior btn btn-outline-danger mt-4"> <a class="letra-menu-sup" href="./Temporadas.html">Temporadas</a></li>
+              <li class="menu-superior btn btn-outline-danger mt-4"> <a class="letra-menu-sup" href="./tienda.html">Tienda</a></li>
+              <li class="menu-superior btn btn-outline-danger mt-4"> <a class="letra-menu-sup" href="./contacto.html">Contacto</a></li>
             </ul>
+          </nav> -->
+
+          <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Menu</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Temporadas.html">Temporadas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./tienda.html">Tienda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </nav>
         </div>
       </header>
@@ -35,7 +60,7 @@
         </div>
         <div>
             <div>
-                <img class="personaje_img"  src="../img/personajes/Yami_yugi.jpg" alt="Yugi">
+                <img class="personaje_img d-block m-auto"  src="../img/personajes/Yami_yugi.jpg" alt="Yugi">
             </div>
 
                 <h3 class="nombre">Yami Yugi</h3>
@@ -46,7 +71,7 @@
         </div>
         <div>
             <div>
-                <img class="personaje_img" src="../img/personajes/Seto_kaiba.jpg" alt="Seto_kaiba">
+                <img class="personaje_img d-block m-auto" src="../img/personajes/Seto_kaiba.jpg" alt="Seto_kaiba">
             </div>
 
                 <h3 class="nombre">Seto Kaiba</h3>
@@ -57,7 +82,7 @@
         </div>
         <div>
             <div>
-                <img class="personaje_img" src="../img/personajes/Joey_wheeler.jpg" alt="Joey">
+                <img class="personaje_img d-block m-auto" src="../img/personajes/Joey_wheeler.jpg" alt="Joey">
             </div>
 
                 <h3 class="nombre">Joey Wheeler</h3>
@@ -68,7 +93,7 @@
         </div>
         <div>
             <div>
-                <img class="personaje_img" src="../img/personajes/Maximillion_pegasus.jpg" alt="Pegasus">
+                <img class="personaje_img d-block m-auto" src="../img/personajes/Maximillion_pegasus.jpg" alt="Pegasus">
             </div>
 
                 <h3 class="nombre">Maximillion Pegasus</h3>
@@ -79,7 +104,7 @@
         </div>
         <div>
             <div>
-               <img class="personaje_img" src="../img/personajes/Mai_valentine.jpg" alt="Mai">
+               <img class="personaje_img d-block m-auto" src="../img/personajes/Mai_valentine.jpg" alt="Mai">
             </div>
 
                 <h3 class="nombre">Mai Valentine</h3>
@@ -90,7 +115,7 @@
         </div>
         <div>
             <div>
-                <img class="personaje_img" src="../img/personajes/YamiBakura.jpg" alt="Bakura">
+                <img class="personaje_img d-block m-auto" src="../img/personajes/YamiBakura.jpg" alt="Bakura">
             </div>
 
                 <h3 class="nombre">Yami Bakura</h3>
@@ -101,13 +126,14 @@
         </div>
         <div>
             <div>
-                <img class="personaje_img" src="../img/personajes/Yami_marik.jpg" alt="Marik">
+                <img class="personaje_img d-block m-auto" src="../img/personajes/Yami_marik.jpg" alt="Marik">
             </div>
                 <h3 class="nombre">Yami Marik</h3>
             <p class="parrafo">
                 Conocido como Marik Oscuro (武藤 マリク・, Yami Marik) en el manga y la versión japonesa, es la segunda personalidad de Marik Ishtar creada por el odio de este y es el principal antagonista del arco de Ciudad Batallas. Después de que Odion cayese en coma, Yami Marik quedó libre y tomó el control sobre el cuerpo de Marik. Además, posee una de las cartas más poderosas del Duelo de Monstruos, "El Dragón Alado de Ra".
             </p>
         </div>
+    </div>
 
 
     </main>
@@ -117,7 +143,7 @@
             <h3 class="titulo-inferior">YuGi Store Colombia</h3>
           </div>
           <div> 
-            <ul class="redes"> 
+            <ul class="redes d-flex flex-column flex-md-row"> 
               <li > <a  href="../index.html"> Inicio </a></li>
               <li > <a  href="./Temporadas.html">Temporadas</a></li>
               <li > <a  href="./tienda.html">Tienda</a></li>
@@ -131,7 +157,7 @@
             <h3 class="titulo-inferior">Síguenos:</h3>
           </div>
           <div >
-            <ul class="redes"> 
+            <ul class="redes d-flex flex-column flex-md-row"> 
               <li> <a href=""> Facebook </a> </li>
               <li> <a href=""> Twitter </a> </li>
               <li> <a href=""> Instagram </a> </li>
