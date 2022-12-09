@@ -1,0 +1,64 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+
+header {
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+footer {
+    max-width: 1400px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    color: brown;
+}
+
+
+
+h1 {
+    color: gold;
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 700;
+}
+
+h2 {
+    color: gold;
+    text-align: center;
+    font-weight: 400;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+label {
+    color: rgb(0, 0, 0);
+}
+
+form {
+    background-color: rgb(219, 219, 219);
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 15px;
+    border: 3px solid gold;
+    display: block;
+    margin: 0 auto;
+}

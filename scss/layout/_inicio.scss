@@ -1,0 +1,18 @@
+@use "../base/variables" as v;
+body{
+    main {
+     div {
+         .parrafo {
+             text-align: center;
+             color: v.$dorado
+         }
+     }
+     div { 
+         .hero2 {
+             margin: 30px auto 30px auto;
+             display: block;
+             width: 100%;
+         }
+     }
+    }
+ }
