@@ -1,25 +1,36 @@
 @use "../base/variables" as v;
-.nombre_saga {
-    font-size: 700;
-    text-align: left;
-    color: v.$dorado;
+
+.div_tempo {
+
+    .nombre_saga {
+        font-size: 700;
+        text-align: left;
+        color: v.$dorado;
+    }
 }
 
-.tex_saga {
-    font-size: 300;
-    text-align: center;
-    color: v.$blanco;
+.div_tempo {
+    .tex_saga {
+        font-size: 300;
+        text-align: center;
+        color: v.$blanco;
+    }
+
 }
 
-.img_tempo {
-    width: min(90%, 500px);
-    display: block;
-    margin: 0 auto;
-    border-radius: 8%;
-    border: 2px solid v.$dorado;
-    margin-bottom: 20px;
-    margin-top: 30px;
+.div_tempo {
+    .img_tempo {
+        width: min(90%, 500px);
+        display: block;
+        margin: 0 auto;
+        border-radius: 8%;
+        border: 2px solid v.$dorado;
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
 }
+
 
 .div_tempo {
     border: 1px solid v.$silver;

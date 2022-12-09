@@ -1,1 +1,5 @@
 @use "../base/variables" as v;
+
+.textarea {
+    width: min(90%, 90rem);
+}

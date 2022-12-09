@@ -95,55 +95,45 @@ body main div .hero2 {
   border-radius: 20px;
 }
 
-.container_card {
-  border: 10px solid #000000;
-  display: flex;
-  align-items: center;
-}
-
 .main_container_card {
   background-color: #032f55;
   border: 10px solid;
   margin: 0 auto;
 }
-
-.img_cartas {
+.main_container_card .img_cartas {
   margin: 0 auto;
   width: min(90%, 300px);
 }
-
-.card_nomber {
+.main_container_card .card_nomber {
   color: #032f55;
   font-size: 400;
   text-align: center;
 }
-
-.precio {
+.main_container_card .precio {
   font-weight: 700;
   color: #032f55;
   text-align: center;
 }
-
-.card {
+.main_container_card .card {
   margin: 25px;
   border: 3px solid #ffd900;
   padding: 15px;
   border-radius: 15px;
 }
 
-.nombre_saga {
+.div_tempo .nombre_saga {
   font-size: 700;
   text-align: left;
   color: #ffd900;
 }
 
-.tex_saga {
+.div_tempo .tex_saga {
   font-size: 300;
   text-align: center;
   color: #ffffff;
 }
 
-.img_tempo {
+.div_tempo .img_tempo {
   width: min(90%, 500px);
   display: block;
   margin: 0 auto;
@@ -158,6 +148,10 @@ body main div .hero2 {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
+}
+
+.textarea {
+  width: min(90%, 90rem);
 }
 
 /*# sourceMappingURL=style.css.map */

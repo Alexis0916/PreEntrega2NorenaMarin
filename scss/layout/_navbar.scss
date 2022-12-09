@@ -4,6 +4,8 @@
     color: v.$dorado !important;
 }
 
-.nav-link:hover {
-    color: v.$dorado;
- }
+.nav-link {
+    &:hover {
+        color: v.$dorado;
+     }
+}

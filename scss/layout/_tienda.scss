@@ -1,31 +1,21 @@
 @use "../base/variables" as v;
 
-.container_card {
-    border: 10px solid v.$negro;
-    display: flex;
-    align-items: center;
-
-}
-
 .main_container_card {
     background-color: v.$azul;
     border: 10px solid;
     margin: 0 auto;
 
-}
-
-.img_cartas {
-    margin: 0 auto;
-    width: min(90%, 300px);
-
-}
-
-.card_nomber {
-    color: v.$azul;
-    font-size: 400;
-    text-align: center;
-}
-
+    .img_cartas {
+        margin: 0 auto;
+        width: min(90%, 300px);
+    
+    }
+    .card_nomber {
+        color: v.$azul;
+        font-size: 400;
+        text-align: center;
+    }
+    
 .precio {
     font-weight: 700;
     color: v.$azul;
@@ -40,3 +30,10 @@
     border-radius: 15px;
 
 }
+
+}
+
+
+
+
+
