@@ -1,5 +1,11 @@
 @use "../base/variables" as v;
 
-.textarea {
-    width: min(90%, 90rem);
+
+body{
+    header {
+        .textarea {
+            width: min(90%, 90rem);
+        }
+    }
 }
+

@@ -1,23 +1,37 @@
 @use "../base/variables" as v;
 
-.info-per {
-    .nombre {
-        display: flex;
-        align-items: flex-start;    
-        color: v.$rojo;
-        font-weight: 300;
+
+body {
+    header {
+        .img_prin {
+            
+            display: flex;
+            justify-content: center;
+        
     }
+    }
+    main {
 
-}
-
-.info-per {
-    .parrafo_per {
-        color: v.$blanco;
+        .info-per {
+            .nombre {
+                display: flex;
+                align-items: flex-start;    
+                color: v.$rojo;
+                font-weight: 300;
+            }
+            .parrafo_per {
+                color: v.$blanco;
+            }
+            .personaje_img {
+                width: min(90%, 300px);
+                height: 300px;
+                border-radius: 20px;
+                }
+        }
     }
 }
 
-.personaje_img {
-width: min(90%, 300px);
-height: 300px;
-border-radius: 20px;
-}
+
+
+
+

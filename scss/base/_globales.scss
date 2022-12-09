@@ -17,8 +17,14 @@ body {
 header {
     max-width: 1400px;
     margin: 0 auto;
-
+    .img_prin {
+            
+        display: flex;
+        justify-content: center;
+    
+    }
 }
+
 
 footer {
     max-width: 1400px;
@@ -62,3 +68,4 @@ form {
     display: block;
     margin: 0 auto;
 }
+
